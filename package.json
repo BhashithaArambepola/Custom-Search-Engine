@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "Google Clone"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BhashithaArambepola/Custom-Search-Engine/issues"
+  },
+  "dependencies": {
+    "reset.css": "^2.0.2"
+  }
 }
