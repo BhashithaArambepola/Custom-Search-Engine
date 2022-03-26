@@ -39,7 +39,6 @@ header {
   gap: 15px;
   justify-content: flex-end;
   align-items: center;
-
 }
 header a {
   color: rgb(0, 0, 0, 0.87);
@@ -73,17 +72,53 @@ header #btn-app svg {
   color: #5f6368;
 }
 
-header #btn-app:hover{
-    background-color: rgba(60,64,67,0.08);
+header #btn-app:hover {
+  background-color: rgba(60, 64, 67, 0.08);
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f2f2f2;
+  color: #70757a;
+}
+footer #country{
+    padding: 15px 30px;
+    font-size: 15px;
+}
+
+footer #links{
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer #links>div{
+    display: flex;
+    justify-content: center;
+}
+footer #links > div:first-child{
+    flex-wrap: wrap;
+}
+footer #links > div a{
+    padding:15px;
+    color: inherit;
+}
 /* == Page Specific */
 
 /* == Key Frames */
 
 /* == Media Queries */
-@media all and (max-width: 419px){
-    header{
-        justify-content: center;
+@media all and (max-width: 419px) {
+  header {
+    justify-content: center;
+  }
+}
+@media all and (max-width: 1200px){
+    footer #links > div{
+        justify-content: space-evenly;
     }
- } 
+}
